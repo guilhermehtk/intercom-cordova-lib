@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-intercom",
-  "version": "6.2.1",
+  "version": "6.2.2",
   "description": "Official Cordova/PhoneGap plugin for Intercom",
   "cordova": {
     "id": "cordova-plugin-intercom",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guilhermehtk/intercom-cordova"
+    "url": "git+https://github.com/guilhermehtk/intercom-cordova-lib.git"
   },
   "keywords": [
     "intercom",
@@ -23,7 +23,11 @@
   "author": "Intercom",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/intercom/intercom-cordova/issues"
+    "url": "https://github.com/intercom/intercom-cordova-lib/issues"
   },
-  "homepage": "https://github.com/intercom/intercom-cordova#readme"
+  "homepage": "https://github.com/intercom/intercom-cordova-lib#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
